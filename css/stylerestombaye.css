@@ -4,57 +4,55 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-#conteneur {
+#conteneur { /* div id conteneur */
     margin: 0 auto;
     width: 1000px;
 }
-h1, h2 {
-    font-size: 0.8em;
-}
-header {
+
+header { /* la tete de page */
     font-size: 1.8em;
     height: 100px;
     background: #fff;
+    text-align: center;
 }
+
+ul li { /* afin de mettre au centre */
+    display: inline-block;
+    text-align: center;
+}
+
+.nav_droite1 {
+    float: right;
+}
+
 img {
-    float: left;
+    float: left; /* pour pouvoir mettre l'image à gauche */
 }
-P {
-    margin: 0 auto;
-    margin-bottom: 20px;
-}   
-.chaise {
+.coté_gauche {
+    display: inline-block;
+    text-align: left;
+}
+.droite {
+  text-align: left;
+    display: inline-block; /* pour l'aligner au même niveau */
+}
+.nav_droite2, .service { /* pour mettre le texte à droite  */
+ 
+    text-align: right;
+    display: inline-block; /* pour l'aligner au même niveau */
+}
+
+.nav_gauchetexte { /* pour mettre le texte à droite */
+    display: inline;
+    text-align: left;
+    
+}
+.dressage {
     float: right;
     text-align: left;
-    bottom: 100%
-}
-.p_deux {
-    margin: 0 auto;
-    width: 500px;
-    height: 30px;
-    float: left;
-    margin-bottom:10 px;
-    clear: both;
-}
-.menu {
-    float: left;
-    margin-right: 10%;
-}
-.desert {
-    float: right;
-}
-.plat {
-    float: left;
-}
-.h2_un {
-    text-align: start;
-    float: left;
-    margin-bottom: 50px;
-    height: 50px;
-}
-h2_zero {
-    float: left;
-    margin: 0 auto;
-    width: 500px;
-    height: 30px;
+    margin-left: 10em;
+    }
+
+.goût {
+    display: inline-block;
 }

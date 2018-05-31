@@ -6,34 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resto Bilan</title>
     <link rel="stylesheet" href="css/stylerestombaye.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <div id="conteneur">
-        <h1>CITY GUIDE.PARIS</h1>
-        <header>LE BILAN</header>
-        <h2>Salle-Serrice-dressage-Coût</h2><br>
-    <section> 
-
-            <img src="img/plate.jpg" alt="Plate">
-            <p><em>Exemple de plat</em><hr><br>MERLU DE LIGNE CAROTTES NOUVELLES ÉPICES DOUCES</p>  
-            <aside>
-                <img class="chaise" src="img/resto_01.jpg" alt="Resto chaise">
-                 <br>
-                    </aside>
-            <img class="menu" src="img/resto_02.jpg" alt="Resto 02">
-            <br>
-            <img class="desert" src="img/resto_03.jpg" alt="Désert">
-            <br>
-            <img class="plat" src="img/resto_04.jpg" alt="Plat">
-        <section>
-                <h2 class="h2_un">La salleAmbiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...
-                        Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé !</h2>
-                    </aside>
-        </section>
-            <footer>
-               <img src="img/plan.png" alt="Plan">
-            </footer> -->
+    <div id="conteneur"> <!-- ouverture div conteneur -->
+        <header>CITY GUIDE.PARIS</header><hr> <!-- tête de la page -->
+        <h1>LE BILAN</h1><hr><br> <!-- titre -->
+        <nav>
+            <ul>
+                <li>Salle</li>
+                <li>-Serrice</li>
+                <li>-Dressage</li>
+                <li>-Coût</li><br>
+            </ul>
+        </nav>
+<section> <!-- ouverture section -->
+        <aside class="nav_droite1">
+            <li>Exemple de Plat</li><hr>
+            <li>MERLU DE LIGNE CAROTTES NOUVELLES ÉPICES DOUCES</li>
+        </aside>
+    <img src="img/plate.jpg" alt="plate">
+    <section>
+        <article class="coté_gauche">
+            <h2>LA SALLE</h2><hr>
+            <aside>Ambiance brute, table en bois ancien, béton ciré au sol. La salle lumineuse est trés agréable, elle est ouverte sur la cuisine. Au fond de la salle, une jolie table ronde à vue sur une rue sur un petit jardin parisien. A l'entrée un joli sol en carreaux de céramique, quelques plumes de paon et de bien jolies bouteilles anciennes...
+                    Le nombre des tables est limité, ce qui rend le restaurant trés appréciable, mais aussi trés prisé !</aside>
+        <img src="img/resto_01.jpg" alt="resto01" class="droite">
+        </article>
+    </section> <!-- fermeture section -->
+    <section>
+        <aside class="nav_droite2">
+            <h2>LE SERVICE</h2><hr>
+            <p class="service">Service toujours impeccable. L'ensemble de la table est servi rapidement, la corbeille de pain régulièrèment pleine, les serveurs expliquent le menu avec beaucoups d'attention et sont d'excellents conseils pour marier mets-vins.
+            On reconnaît l'ensemble de l'équipe à leurs tabliers bleu.</p><hr> <!-- la phrase en lien avec l'image -->
+            <p>LA NOTE</p>
+            <img src="img/resto_02.jpg" alt="resto02">
+        </aside>
     </section>
-    </div>
-</body>
+    <div class="main">
+    <section>
+                 <aside class="nav_gauchetexte">
+                <h3>LE DRESSAGE</h3>
+                <p>Le dressage c'est un peu la marque de fabrique du chef, avec la cuisine biensûr. Ses plats sont de vrais petits tableaux de maître. Une belle recherche dans les formes et couleurs très agréable visuellement.</p><br>
+                <img src="img/resto_03.jpg " alt="resto03" class="dressage">
+                <br> <!-- pour le mettre à la ligne -->
+                </aside>
+    </section>
+    <section>
+        <article class="goût">
+                <h3>LE GOUT</h3>
+                <p>Enfin ! ; le goût. C'est le point le plus important, et tellement bien ajusté ici. Les papilles voltent et virevoltent au rythme des saveurs si justes, des cuissons si parfaitement maîtrisées.
+                 Chaque plat, chaque association, rien n'est laissé au hasard, de l'élément principal à la toute petite feuille d'herbe délicatement posée sur le dessus du plat. Emerveillement des sens et frénésie de créativité sont au rendez-vous.</p>
+        <img src="img/resto_04.jpg " alt="resto ">
+        </article>
+    </section>
+ <!-- fermeture section -->
+    </div><!-- fermture div class main -->
+          
+    
+            <footer class="pied_de_page"> <!-- pied de page -->
+                <img src="img/plan.png" alt="Plan">
+            </footer> <!-- pied de la page -->
+</body> 
+
 </html>
