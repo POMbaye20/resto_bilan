@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* global */
+body {
+    background:white;
+    margin: 0 auto;
+    text-align: center;
+}
+/* div id conteneur */
+#conteneur { 
+    margin: 0 auto;
+    width: 1000px;
+    background: lightsalmon;
+}
+
+/* la tete de page */
+header { 
+    font-size: 1.8em;
+    height: 100px;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+.cityguide {
+    font-size: 14px;
+}
+nav {
+    height: 100px;
+    padding-top: 20px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 auto;
+}
+/* section */
+.gauche {
+    float: left;
+    width: 500px;
+}
+.droite {
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+.service {
+    width: 442px;
+}
+desert {
+    float: left;
+    width: 384px;
+}
+.merlu li {
+    list-style-type: none;
+    text-align: right;
+    padding-right: 193px;
+}
+/* images */
+.assiette {
+    float: left;
+    width: 407px;
+}
+.sectiondeux {
+    width: 901px;
+    height: 799px;
+}
+
+ p {
+    border-bottom: 1px;
+}
+article {
+    width:600px;
+    height: 415px;
+    margin-top: 100px;
+    line-height: 30px;
+    display: inline-block;
+}
+img {
+display: inline-block;
+}
+.clear {
+    clear: both;
+}
+h2 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+footer {
+    margin-top: 20px;
+} 
